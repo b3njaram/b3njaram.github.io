@@ -3,6 +3,7 @@ import portfolioImg1 from "./assets/images/portfolio-1.png";
 import portfolioImg2 from "./assets/images/portfolio-2.png";
 import portfolioImg3 from "./assets/images/portfolio-3.png";
 import portfolioImg4 from "./assets/images/portfolio-4.jpg";
+import portfolioImg5 from "./assets/images/portfolio-5.jpg";
 
 const logotext = "BENJAMIN";
 const meta = {
@@ -122,6 +123,11 @@ const dataportfolio = [
             "img": portfolioImg4,
             "description": "Brainrot Pop App- A mobile video game, currently for android and made in Java, where the user gets revenue from clicking on various items.",
             "link": "https://github.com/b3njaram/Brainrot-Pop"
+        },
+        {
+            "img": portfolioImg5,
+            "description": "Developed a complete Applicant Tracking System (ATS) using a modern React frontend and a Python serverless backend, demonstrating full-stack proficiency.",
+            "link": "https://github.com/b3njaram/jale-hiring-app-masterv2"
         }
 ];
 
