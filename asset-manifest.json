@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/b3njaram.github.io/static/css/main.ae68e3cb.css",
-    "main.js": "/b3njaram.github.io/static/js/main.418e4989.js",
-    "static/media/PersonalPicture.jpg": "/b3njaram.github.io/static/media/PersonalPicture.9b29394a20a3fb85d948.jpg",
-    "static/media/portfolio-4.jpg": "/b3njaram.github.io/static/media/portfolio-4.c382f1337b24823c14bf.jpg",
-    "static/media/portfolio-3.png": "/b3njaram.github.io/static/media/portfolio-3.9c983d4c4cfc6374b7cb.png",
-    "static/media/portfolio-5.png": "/b3njaram.github.io/static/media/portfolio-5.828ca79054714ee7c90f.png",
-    "static/media/portfolio-1.png": "/b3njaram.github.io/static/media/portfolio-1.aa81243099def8c38ab8.png",
-    "static/media/portfolio-2.png": "/b3njaram.github.io/static/media/portfolio-2.925160e27f542aedaa51.png",
-    "index.html": "/b3njaram.github.io/index.html"
+    "main.css": "/static/css/main.ae68e3cb.css",
+    "main.js": "/static/js/main.15bfe224.js",
+    "static/media/PersonalPicture.jpg": "/static/media/PersonalPicture.9b29394a20a3fb85d948.jpg",
+    "static/media/portfolio-4.jpg": "/static/media/portfolio-4.c382f1337b24823c14bf.jpg",
+    "static/media/portfolio-3.png": "/static/media/portfolio-3.9c983d4c4cfc6374b7cb.png",
+    "static/media/portfolio-5.png": "/static/media/portfolio-5.828ca79054714ee7c90f.png",
+    "static/media/portfolio-1.png": "/static/media/portfolio-1.aa81243099def8c38ab8.png",
+    "static/media/portfolio-2.png": "/static/media/portfolio-2.925160e27f542aedaa51.png",
+    "index.html": "/index.html"
   },
   "entrypoints": [
     "static/css/main.ae68e3cb.css",
-    "static/js/main.418e4989.js"
+    "static/js/main.15bfe224.js"
   ]
 }
