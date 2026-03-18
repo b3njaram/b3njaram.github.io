@@ -5,6 +5,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { meta } from "../../content_option";
 import { Container, Row, Col, Alert } from "react-bootstrap";
 import { contactConfig } from "../../content_option";
+import resumePdf from "../../assets/documents/resume.pdf";
 
 export const ContactUs = () => {
   const [formData, setFormdata] = useState({
@@ -158,6 +159,19 @@ export const ContactUs = () => {
                 </Col>
               </Row>
             </form>
+          </Col>
+        </Row>
+        <Row className="mb-5 mt-5 pt-md-3">
+          <Col lg="12">
+            <h1 className="display-4 mb-4">Resume</h1>
+            <hr className="t_border my-4 ml-0 text-left" />
+            <div className="text-center">
+              <iframe src={resumePdf} width="100%" height="800px" title="Resume" style={{ border: "1px solid #ccc" }}></iframe>
+              <br />
+              <a href={resumePdf} download="Benjamin_Ramirez_Resume.pdf" className="btn ac_btn mt-4 mb-5">
+                Download Resume
+              </a>
+            </div>
           </Col>
         </Row>
       </Container>

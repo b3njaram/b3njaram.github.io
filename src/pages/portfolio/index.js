@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { dataportfolio, meta } from "../../content_option";
+import { dataportfolio, dataportfolio2025_2026, meta } from "../../content_option";
 
 export const Portfolio = () => {
   return (
@@ -15,7 +15,7 @@ export const Portfolio = () => {
         </Helmet>
         <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
-            <h1 className="display-4 mb-4"> Portfolio </h1>{" "}
+            <h1 className="display-4 mb-4"> Portfolio 2024-2025 </h1>{" "}
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
@@ -32,6 +32,25 @@ export const Portfolio = () => {
             );
           })}
         </div>
+
+    <Row className="mb-5 mt-3 pt-md-3">
+      <Col lg="8">
+        <h1 className="display-4 mb-4"> Portfolio 2025-2026 </h1>{" "}
+        <hr className="t_border my-4 ml-0 text-left" />
+      </Col>
+    </Row>
+    <div className="mb-5 po_items_ho">
+      {dataportfolio2025_2026.map((data, i) => {
+        return (
+          <div key={i} className="po_item">
+            <img src={data.img} alt="" />
+            <div className="content">
+              <p>{data.description}</p>
+            </div>
+          </div>
+        );
+      })}
+    </div>
       </Container>
     </HelmetProvider>
   );

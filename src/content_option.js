@@ -3,7 +3,7 @@ import portfolioImg1 from "./assets/images/portfolio-1.png";
 import portfolioImg2 from "./assets/images/portfolio-2.png";
 import portfolioImg3 from "./assets/images/portfolio-3.png";
 import portfolioImg4 from "./assets/images/portfolio-4.jpg";
-import portfolioImg5 from "./assets/images/portfolio-5.jpg";
+import portfolioImg5 from "./assets/images/portfolio-5.png";
 
 const logotext = "BENJAMIN";
 const meta = {
@@ -14,20 +14,25 @@ const meta = {
 const introdata = {
     title: "Benjamin Ramirez",
     animated: {
-        first: "I love coding and computers",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I love computers",
+        second: "I make old computers into servers",
+        third: "I develop scripts",
     },
-    description: "A passionate and driven Computer Science student at the University of Texas at El Paso, with a strong foundation in software development, technical support, and leadership. Proven ability to excel in fast-paced, collaborative environments and deliver innovative solutions to complex problems. Eager to leverage my skills in a challenging and rewarding role.",
+    description: "A passionate and driven Computer Science student at the University of Texas at El Paso, with knowledge in full-stack development, IT, cybersecurity, and leadership. Proven ability to excel in fast-paced, collaborative environments and deliver innovative solutions to complex problems. Eager to leverage my skills in a challenging and rewarding role.",
     your_img_url: introImg,
 };
 
 const dataabout = {
     title: "A bit about myself",
-    aboutme: "As a Computer Science student at the University of Texas at El Paso, I have a strong foundation in software development, technical support, and leadership. I have gained hands-on experience through various projects and competitions, including winning first place at the DELL Tech Academy. My background as a Second Chair Cellist has also equipped me with valuable skills in multitasking, time management, and teamwork. I am passionate about leveraging my technical expertise to solve real-world problems and am eager to contribute to a dynamic and innovative team."
+    aboutme: "As a Computer Science student at the University of Texas at El Paso, I have a strong foundation in full-stack development, IT, cybersecurity, and leadership. I have gained hands-on experience through various projects and competitions, including winning first place at the DELL Tech Academy. My background as a Second Chair Cellist has also equipped me with valuable skills in multitasking, time management, and teamwork. I am passionate about leveraging my technical expertise to solve real-world problems and am eager to contribute to a dynamic and innovative team."
 };
 
 const worktimeline = [
+        {
+            "jobtitle": "Whataburger Team member (Grill, MUT, Pass-out, Porter, Drinks)",
+            "where": "1755 Lee Trevino & 8055 N Loop",
+            "date": "2024-2025 & 2025-2026"
+        },
         {
             "jobtitle": "Computer Science Technician",
             "where": "University of Texas at El Paso (UTEP) - Computer Science IT Department",
@@ -52,7 +57,7 @@ const skills = [
         },
         {
             "name": "Javascript",
-            "value": 80
+            "value": 60
         },
         {
             "name": "Html",
@@ -64,19 +69,11 @@ const skills = [
         },
         {
             "name": "Python",
-            "value": 80
-        },
-        {
-            "name": "Flask",
-            "value": 70
-        },
-        {
-            "name": "Pandas",
-            "value": 70
+            "value": 100
         },
         {
             "name": "React Native",
-            "value": 80
+            "value": 60
         }
 ];
 
@@ -97,10 +94,15 @@ const services = [
             "title": "Resume Parser AI",
             "description": "Created a Flask web app that parses resumes and extracts key information like skills, experience, and education."
         },
-                {
+        {
             "title": "Brainrot Pop App",
             "description": "Developed a fun, idle mobile video game for Android using Java, where users can earn revenue by clicking on various items."
-        }
+        },
+        {
+            "title": "Home-Labs",
+            "description": "Added an AI for my home and more users internationally, installed pi-hole for wifi adblocking and encryption, made a 2000 printer work with wifi AirPrint and computer printing, and replaced google drive with Nextcloud and google photos with Immich. Besides this, I have also installed Vaultwarden for password management and other more in the name of independation from Big Tech. All of these services are checked if they are alive with Uptime Kuma."
+        },
+
 ];
 
 const dataportfolio = [
@@ -131,6 +133,44 @@ const dataportfolio = [
         }
 ];
 
+const dataportfolio2025_2026 = [
+        {
+            "img": "",
+            "description": "Added an AI for my home and more users internationally using OpenWebUI and LM Studio",
+            "link": "https://ai.jobbisoft.com.mx"
+        },
+        {
+            "img": "",
+            "description": "Installed pi-hole for wifi adblocking and encryption.",
+            "link": "#"
+        },
+        {
+            "img": "",
+            "description": "Made a 2000 printer work with wifi AirPrint and computer printing",
+            "link": "#"
+        },
+        {
+            "img": "",
+            "description": "Replaced google drive with Nextcloud and google photos with Immich.",
+            "link": "#"
+        },
+        {
+            "img": "",
+            "description": "installed Vaultwarden for password management and other more in the name of independation from Big Tech.",
+            "link": "#"
+        },
+        {
+            "img": "",
+            "description": "All of these services are checked if they are alive with Uptime Kuma.",
+            "link": "#"
+        },
+        {
+            "img": "",
+            "description": "In the name of privacy, I have installed GrapheneOS in my personal phone and have taken measures against trackers and more things. WIth this, I have gathered knowledge of OSINT opportunities and plan to use them with my self-hosted AI.",
+            "link": "#"
+        }
+];
+
 const contactConfig = {
         "YOUR_EMAIL": "boramirez@miners.utep.edu",
         "YOUR_FONE": "(915) 841-0751",
@@ -150,6 +190,7 @@ export {
     meta,
     dataabout,
     dataportfolio,
+    dataportfolio2025_2026,
     worktimeline,
     skills,
     services,
