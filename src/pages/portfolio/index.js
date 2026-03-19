@@ -32,7 +32,7 @@ export const Portfolio = () => {
             );
           })}
         </div>
-
+        <br></br> <br></br><br></br> <br></br><br></br> <br></br><br></br> <br></br>
     <Row className="mb-5 mt-3 pt-md-3">
       <Col lg="8">
         <h1 className="display-4 mb-4"> Portfolio 2025-2026 </h1>{" "}

@@ -5,6 +5,14 @@ import portfolioImg3 from "./assets/images/portfolio-3.png";
 import portfolioImg4 from "./assets/images/portfolio-4.jpg";
 import portfolioImg5 from "./assets/images/portfolio-5.png";
 
+import portfolioImg10 from "./assets/images/portfolio2/openwebui.png";
+import portfolioImg20 from "./assets/images/portfolio2/pihole.png";
+import portfolioImg30 from "./assets/images/portfolio2/print.jpg";
+import portfolioImg40 from "./assets/images/portfolio2/nextcloud.png";
+import portfolioImg50 from "./assets/images/portfolio2/bitwarden.png";
+import portfolioImg60 from "./assets/images/portfolio2/uptimekuma.png";
+import portfolioImg70 from "./assets/images/portfolio2/graphene.jpg";
+
 const logotext = "BENJAMIN";
 const meta = {
     title: "Benjamin Ramirez",
@@ -135,37 +143,37 @@ const dataportfolio = [
 
 const dataportfolio2025_2026 = [
         {
-            "img": "",
+            "img": portfolioImg10,
             "description": "Added an AI for my home and more users internationally using OpenWebUI and LM Studio",
             "link": "https://ai.jobbisoft.com.mx"
         },
         {
-            "img": "",
+            "img": portfolioImg20,
             "description": "Installed pi-hole for wifi adblocking and encryption.",
             "link": "#"
         },
         {
-            "img": "",
+            "img": portfolioImg30,
             "description": "Made a 2000 printer work with wifi AirPrint and computer printing",
             "link": "#"
         },
         {
-            "img": "",
+            "img": portfolioImg40,
             "description": "Replaced google drive with Nextcloud and google photos with Immich.",
             "link": "#"
         },
         {
-            "img": "",
+            "img": portfolioImg50,
             "description": "installed Vaultwarden for password management and other more in the name of independation from Big Tech.",
             "link": "#"
         },
         {
-            "img": "",
+            "img": portfolioImg60,
             "description": "All of these services are checked if they are alive with Uptime Kuma.",
             "link": "#"
         },
         {
-            "img": "",
+            "img": portfolioImg70,
             "description": "In the name of privacy, I have installed GrapheneOS in my personal phone and have taken measures against trackers and more things. WIth this, I have gathered knowledge of OSINT opportunities and plan to use them with my self-hosted AI.",
             "link": "#"
         }
