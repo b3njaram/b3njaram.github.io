@@ -1,18 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.ae134bd9.css",
-    "main.js": "/static/js/main.f665ba3c.js",
+    "main.js": "/static/js/main.c94f8c18.js",
     "static/media/PersonalPicture.jpg": "/static/media/PersonalPicture.9b29394a20a3fb85d948.jpg",
+    "static/media/graphene.jpg": "/static/media/graphene.5f339ee41e57ca0ef949.jpg",
+    "static/media/pihole.png": "/static/media/pihole.68ccfd819966a1a01215.png",
+    "static/media/nextcloud.png": "/static/media/nextcloud.ec93b881f104fb58ced3.png",
+    "static/media/print.jpg": "/static/media/print.7da72c29bd4029e94199.jpg",
     "static/media/portfolio-4.jpg": "/static/media/portfolio-4.c382f1337b24823c14bf.jpg",
+    "static/media/openwebui.png": "/static/media/openwebui.082fa32f111894afeb2d.png",
     "static/media/resume.pdf": "/static/media/resume.3c7fe66261e9ea7aa12e.pdf",
+    "static/media/uptimekuma.png": "/static/media/uptimekuma.5b11064adfcb70c33252.png",
     "static/media/portfolio-3.png": "/static/media/portfolio-3.9c983d4c4cfc6374b7cb.png",
     "static/media/portfolio-5.png": "/static/media/portfolio-5.828ca79054714ee7c90f.png",
     "static/media/portfolio-1.png": "/static/media/portfolio-1.aa81243099def8c38ab8.png",
     "static/media/portfolio-2.png": "/static/media/portfolio-2.925160e27f542aedaa51.png",
+    "static/media/bitwarden.png": "/static/media/bitwarden.98ba8fb32754e03ef0bd.png",
     "index.html": "/index.html"
   },
   "entrypoints": [
     "static/css/main.ae134bd9.css",
-    "static/js/main.f665ba3c.js"
+    "static/js/main.c94f8c18.js"
   ]
 }
