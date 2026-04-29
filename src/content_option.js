@@ -112,6 +112,28 @@ const services = [
         },
 
 ];
+const knowledge = [
+    {
+        "title": "Operating Systems (Linux, Windows, Mac, and more)",
+        "description": "Windows 10 and 11,Fedora Workstation, Fedora SilverBlue, Ubuntu, Mint, Arch, Kali, GrapheneOS, Android (Samsung and google), IOS, MacOS, IpadOS, and CloneZilla"
+    },
+    {
+        "title": "Hardware and Reparations",
+        "description": "I have chosen the parts for my desktop computer, built it from sratch, and troubleshooted everytime something wrong happened- from the display to beeps in the motherboard. I have also repaired issues with All In Ones, monitors, and phones- both in software and in hardware."
+    },
+    {
+        "title": "Networking",
+        "description": "I set up my house's network to pass through a raspberry pi through Pi-hole so that the traffic is encrypted and also doesn't allow ads within the whole network. I have also added Tailscale to all the computers to tunnel connections to them thorugh P2P. I also have experience with switches to mass install images of Windows 11."
+    },
+    {
+        "title": "Certifications",
+        "description": "Google IT Support Specialist, AWS Cloud Computing Badge, Java IT Specialist Programming Certification."
+    },
+    {
+        "title": "Cybersecurity",
+        "description": "Experienced tools from black arch linux natively in my personal computer and have also used kali linux in VMWare Fusion for a Capture the Flag Event at UTEP in 2026. I have also used Open Source Intelligence tools in order to know all the information that is publicly avaiable of me, as a plan to hack myself without needing too much knowledge on hacking. This is with the philosophy of the book \"The art of Deception\", written by a famous hacker, Kevin Mitnick."
+    },
+];
 
 const dataportfolio = [
         {
@@ -202,6 +224,7 @@ export {
     worktimeline,
     skills,
     services,
+    knowledge,
     introdata,
     contactConfig,
     socialprofils,
