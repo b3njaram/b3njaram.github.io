@@ -41,7 +41,7 @@ export const ContactUs = () => {
           console.log(result.text);
           setFormdata({
             loading: false,
-            alertmessage: "SUCCESS! ,Thankyou for your messege",
+            alertmessage: "SUCCESS! Thank you for your message, please wait for a response within 24 hours.",
             variant: "success",
             show: true,
           });

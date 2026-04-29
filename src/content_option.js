@@ -1,4 +1,4 @@
-import introImg from "./assets/images/PersonalPicture.jpg";
+import introImg from "./assets/images/PersonalPicture.png";
 import portfolioImg1 from "./assets/images/portfolio-1.png";
 import portfolioImg2 from "./assets/images/portfolio-2.png";
 import portfolioImg3 from "./assets/images/portfolio-3.png";
@@ -180,12 +180,12 @@ const dataportfolio2025_2026 = [
 ];
 
 const contactConfig = {
-        "YOUR_EMAIL": "boramirez@miners.utep.edu",
+        "YOUR_EMAIL": "b3njaram06@gmail.com",
         "YOUR_FONE": "(915) 841-0751",
         "description": "I am always open to new opportunities and collaborations. Feel free to reach out to me via email or phone. I look forward to hearing from you!",
-        "YOUR_SERVICE_ID": "service_id",
-        "YOUR_TEMPLATE_ID": "template_id",
-        "YOUR_USER_ID": "user_id"
+        "YOUR_SERVICE_ID": "service_72xskkj",
+        "YOUR_TEMPLATE_ID": "template_gyjysvk",
+        "YOUR_USER_ID": "aGoxmctvDWPQ1OrUe"
 };
 
 const socialprofils = {
