@@ -60,7 +60,7 @@ const worktimeline = [
             "jobtitle": "Server Test Technician",
             "where": "Wiwynn, El Paso, Texas, USA",
             "date": "2026-2026"
-        }
+        },
 
 ];
 
