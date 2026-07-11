@@ -38,7 +38,7 @@ const dataabout = {
 const worktimeline = [
         {
             "jobtitle": "Whataburger Team member (Grill, MUT, Pass-out, Porter, Drinks)",
-            "where": "1755 Lee Trevino & 8055 N Loop",
+            "where": "1755 Lee Trevino & 8055 N Loop, El Paso, Texas, USA",
             "date": "2024-2025 & 2025-2026"
         },
         {
@@ -58,9 +58,10 @@ const worktimeline = [
         },
         {
             "jobtitle": "Server Test Technician",
-            "where": "Wiwynn Corporation - El Paso, TX, USA",
-            "date": "2026"
+            "where": "Wiwynn, El Paso, Texas, USA",
+            "date": "2026-2026"
         }
+
 ];
 
 const skills = [
