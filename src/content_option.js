@@ -55,6 +55,11 @@ const worktimeline = [
             "jobtitle": "Second Chair Cellist",
             "where": "Orquesta Sinfónica Esperanza Azteca (OSEA) at Ciudad Juarez, MX",
             "date": "2017-2025"
+        },
+        {
+            "jobtitle": "Server Test Technician",
+            "where": "Wiwynn Corporation - El Paso, TX, USA",
+            "date": "2026"
         }
 ];
 
@@ -81,6 +86,10 @@ const skills = [
         },
         {
             "name": "React Native",
+            "value": 60
+        },
+        {
+            "name": "PHP",
             "value": 60
         }
 ];
