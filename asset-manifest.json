@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e7bf9022.css",
-    "main.js": "/static/js/main.619820d4.js",
+    "main.css": "/static/css/main.98de03b7.css",
+    "main.js": "/static/js/main.ec64cb35.js",
     "static/media/graphene.jpg": "/static/media/graphene.5f339ee41e57ca0ef949.jpg",
     "static/media/PersonalPicture.png": "/static/media/PersonalPicture.d3c67255493650819f46.png",
     "static/media/pihole.png": "/static/media/pihole.68ccfd819966a1a01215.png",
@@ -23,7 +23,7 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.e7bf9022.css",
-    "static/js/main.619820d4.js"
+    "static/css/main.98de03b7.css",
+    "static/js/main.ec64cb35.js"
   ]
 }
