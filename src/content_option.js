@@ -12,6 +12,10 @@ import portfolioImg40 from "./assets/images/portfolio2/nextcloud.png";
 import portfolioImg50 from "./assets/images/portfolio2/bitwarden.png";
 import portfolioImg60 from "./assets/images/portfolio2/uptimekuma.png";
 import portfolioImg70 from "./assets/images/portfolio2/graphene.jpg";
+import portfolioImg80 from "./assets/images/portfolio2/placeholder-ai-ops.svg";
+import portfolioImg90 from "./assets/images/portfolio2/placeholder-secops.svg";
+import portfolioImg100 from "./assets/images/portfolio2/placeholder-server-lab.svg";
+import portfolioImg110 from "./assets/images/portfolio2/placeholder-cloud-ops.svg";
 
 const logotext = "BENJAMIN";
 const meta = {
@@ -120,6 +124,14 @@ const services = [
             "title": "Home-Labs",
             "description": "Added an AI for my home and more users internationally, installed pi-hole for wifi adblocking and encryption, made a 2000 printer work with wifi AirPrint and computer printing, and replaced google drive with Nextcloud and google photos with Immich. Besides this, I have also installed Vaultwarden for password management and other more in the name of independation from Big Tech. All of these services are checked if they are alive with Uptime Kuma."
         },
+        {
+            "title": "AI Operations & Automation",
+            "description": "Extended my self-hosted infrastructure with private AI tooling, network health monitoring, and dashboards for uptime, service health, and environment observability across an internal home-lab ecosystem."
+        },
+        {
+            "title": "Security Lab & Hardening",
+            "description": "Built a defense-in-depth environment using Tailscale, Pi-hole, Moxy, and self-hosted security tooling to test exposure points, harden access paths, and audit web applications before exposing them externally."
+        },
 
 ];
 const knowledge = [
@@ -142,6 +154,10 @@ const knowledge = [
     {
         "title": "Cybersecurity",
         "description": "Experienced tools from black arch linux natively in my personal computer and have also used kali linux in VMWare Fusion for a Capture the Flag Event at UTEP in 2026. I have also used Open Source Intelligence tools in order to know all the information that is publicly avaiable of me, as a plan to hack myself without needing too much knowledge on hacking. This is with the philosophy of the book \"The art of Deception\", written by a famous hacker, Kevin Mitnick."
+    },
+    {
+        "title": "AI Infrastructure & Automation",
+        "description": "Worked with self-hosted AI stacks, local inference workflows, and service dashboards to create a private automation environment where I could monitor, manage, and scale projects without relying on third-party cloud platforms."
     },
 ];
 
@@ -211,6 +227,29 @@ const dataportfolio2025_2026 = [
         }
 ];
 
+const dataportfolio2026_2027 = [
+        {
+            "img": portfolioImg80,
+            "description": "AI Ops Command Center - A placeholder concept for a private AI dashboard used to monitor local models, automate service checks, and coordinate home-lab tasks from one interface.",
+            "link": "#"
+        },
+        {
+            "img": portfolioImg90,
+            "description": "Zero-Trust Home Network - A placeholder security project focused on layered access control, encrypted tunneling, ad-blocking, and resilient defense for self-hosted services.",
+            "link": "#"
+        },
+        {
+            "img": portfolioImg100,
+            "description": "Server Validation Lab - A placeholder project for rack health checks, automated hardware diagnostics, and validation workflows used to verify server stacks before deployment.",
+            "link": "#"
+        },
+        {
+            "img": portfolioImg110,
+            "description": "Cloud Automation Dashboard - A placeholder initiative for centralized monitoring, deployment tracking, and infrastructure insights built around uptime, health checks, and automation scripts.",
+            "link": "#"
+        }
+];
+
 const contactConfig = {
         "YOUR_EMAIL": "b3njaram06@gmail.com",
         "YOUR_FONE": "(915) 841-0751",
@@ -231,6 +270,7 @@ export {
     dataabout,
     dataportfolio,
     dataportfolio2025_2026,
+    dataportfolio2026_2027,
     worktimeline,
     skills,
     services,

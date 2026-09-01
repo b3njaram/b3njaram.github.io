@@ -1,0 +1,17 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" fill="#0B1120"/>
+  <rect x="100" y="120" width="1000" height="660" rx="30" fill="#111827" stroke="#F59E0B" stroke-width="4"/>
+  <circle cx="286" cy="350" r="136" fill="#F59E0B" fill-opacity="0.18"/>
+  <circle cx="286" cy="350" r="90" fill="#F59E0B" fill-opacity="0.32"/>
+  <path d="M286 292L318 334L286 374L254 334L286 292Z" fill="#FBBF24"/>
+  <rect x="450" y="250" width="450" height="40" rx="20" fill="#1F2937"/>
+  <rect x="450" y="320" width="360" height="22" rx="11" fill="#E5E7EB" fill-opacity="0.7"/>
+  <rect x="450" y="360" width="420" height="22" rx="11" fill="#E5E7EB" fill-opacity="0.5"/>
+  <rect x="450" y="430" width="220" height="180" rx="18" fill="#0F172A" stroke="#FBBF24" stroke-width="2"/>
+  <rect x="700" y="430" width="220" height="180" rx="18" fill="#0F172A" stroke="#FBBF24" stroke-width="2"/>
+  <rect x="485" y="472" width="150" height="12" rx="6" fill="#FBBF24"/>
+  <rect x="485" y="500" width="115" height="12" rx="6" fill="#FBBF24" fill-opacity="0.7"/>
+  <rect x="735" y="472" width="150" height="12" rx="6" fill="#34D399"/>
+  <rect x="735" y="500" width="118" height="12" rx="6" fill="#34D399" fill-opacity="0.7"/>
+  <text x="600" y="110" fill="#F8FAFC" font-family="Arial, sans-serif" font-size="42" font-weight="700" text-anchor="middle">SECURITY LAB</text>
+</svg>
