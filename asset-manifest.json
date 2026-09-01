@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e7bf9022.css",
-    "main.js": "/static/js/main.af853f17.js",
+    "main.js": "/static/js/main.619820d4.js",
     "static/media/graphene.jpg": "/static/media/graphene.5f339ee41e57ca0ef949.jpg",
     "static/media/PersonalPicture.png": "/static/media/PersonalPicture.d3c67255493650819f46.png",
     "static/media/pihole.png": "/static/media/pihole.68ccfd819966a1a01215.png",
@@ -9,17 +9,21 @@
     "static/media/print.jpg": "/static/media/print.7da72c29bd4029e94199.jpg",
     "static/media/portfolio-4.jpg": "/static/media/portfolio-4.c382f1337b24823c14bf.jpg",
     "static/media/openwebui.png": "/static/media/openwebui.082fa32f111894afeb2d.png",
-    "static/media/resume.pdf": "/static/media/resume.2b2f668d18020b1549bb.pdf",
+    "static/media/resume.pdf": "/static/media/resume.61377d16ce5d69db4b6e.pdf",
     "static/media/uptimekuma.png": "/static/media/uptimekuma.5b11064adfcb70c33252.png",
     "static/media/portfolio-3.png": "/static/media/portfolio-3.9c983d4c4cfc6374b7cb.png",
     "static/media/portfolio-5.png": "/static/media/portfolio-5.828ca79054714ee7c90f.png",
     "static/media/portfolio-1.png": "/static/media/portfolio-1.aa81243099def8c38ab8.png",
     "static/media/portfolio-2.png": "/static/media/portfolio-2.925160e27f542aedaa51.png",
     "static/media/bitwarden.png": "/static/media/bitwarden.98ba8fb32754e03ef0bd.png",
+    "static/media/placeholder-cloud-ops.svg": "/static/media/placeholder-cloud-ops.66aca5f9d71e783e079bccaae4ea60f0.svg",
+    "static/media/placeholder-ai-ops.svg": "/static/media/placeholder-ai-ops.edc577a747e9e57e6620f4de5b7df485.svg",
+    "static/media/placeholder-server-lab.svg": "/static/media/placeholder-server-lab.6778a7f1b9141461ee0b270bdf3bacca.svg",
+    "static/media/placeholder-secops.svg": "/static/media/placeholder-secops.84d40fed2d13c869a1c933a2ac333d6f.svg",
     "index.html": "/index.html"
   },
   "entrypoints": [
     "static/css/main.e7bf9022.css",
-    "static/js/main.af853f17.js"
+    "static/js/main.619820d4.js"
   ]
 }
