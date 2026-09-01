@@ -1,9 +1,9 @@
 .po_items_ho {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 2rem;
-    height: 90vh; /* Use viewport height to fill the screen */
+    align-items: start;
+    margin-bottom: 2rem;
 }
 
 .po_item {
@@ -16,54 +16,40 @@
     border: 1px solid var(--secondary-color);
     transition: 0.3s ease;
     font-size: 0;
-    min-height: 300px;
+    min-height: 260px;
+    overflow: hidden;
 }
 
 .po_item img {
-    max-width: 100%;
+    display: block;
+    width: 100%;
     height: 100%;
+    max-height: 360px;
+    object-fit: cover;
 }
 
 .po_item .content {
     position: absolute;
-    height: 0;
-    width: 0;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    inset: 0;
     background: var(--overlay-color);
     z-index: 1;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 100%;
-    width: 100%;
+    padding: 1rem;
     transition: 0.3s ease-in-out;
     opacity: 0;
     border: 1px solid black;
+    box-sizing: border-box;
 }
 
-.po_item .content {
-    opacity: 0;
-    transition-delay: 1s;
-    transition: 0.3s ease;
-    font-size: 20px;
-}
-
-.po_item:hover {
-    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.25);
-}
-
-.po_item:hover .content {
-    height: 100%;
-    width: 100%;
-    opacity: 1;
-}
-
-.po_item:hover .content {
-    opacity: 1;
+.po_item .content p {
+    margin: 0 0 0.75rem;
     color: var(--secondary-color);
+    font-size: clamp(0.7rem, 1.1vw, 1.05rem);
+    line-height: 1.5;
+    text-align: center;
 }
 
 .po_item .content a {
@@ -71,9 +57,52 @@
     border: solid 1px var(--text-color);
     padding: 4px 8px;
     text-align: center;
-    font-size: 1rem;
+    font-size: clamp(0.7rem, 1vw, 0.95rem);
+    color: var(--text-color);
+}
+
+.po_item:hover {
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.25);
+}
+
+.po_item:hover .content {
+    opacity: 1;
 }
 
 .po_item .content a:hover {
     text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .po_items_ho {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+    }
+
+    .po_item {
+        min-height: 220px;
+        padding: 4px;
+    }
+
+    .po_item img {
+        max-height: 260px;
+    }
+
+    .po_item .content {
+        padding: 0.7rem;
+    }
+
+    .po_item .content p {
+        font-size: 0.72rem;
+        line-height: 1.45;
+    }
+
+    .po_item .content a {
+        font-size: 0.7rem;
+        padding: 4px 8px;
+    }
+
+    .display-4 {
+        font-size: 2.1rem;
+    }
 }

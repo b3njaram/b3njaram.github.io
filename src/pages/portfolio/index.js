@@ -32,8 +32,7 @@ export const Portfolio = () => {
             );
           })}
         </div>
-        <br></br> <br></br><br></br> <br></br><br></br> <br></br><br></br> <br></br>
-    <Row className="mb-5 mt-3 pt-md-3">
+        <Row className="mb-5 mt-5 pt-md-3">
       <Col lg="8">
         <h1 className="display-4 mb-4"> Portfolio 2025-2026 </h1>{" "}
         <hr className="t_border my-4 ml-0 text-left" />
@@ -51,8 +50,7 @@ export const Portfolio = () => {
         );
       })}
     </div>
-    <br></br> <br></br><br></br> <br></br><br></br> <br></br><br></br> <br></br>
-    <Row className="mb-5 mt-3 pt-md-3">
+        <Row className="mb-5 mt-5 pt-md-3">
       <Col lg="8">
         <h1 className="display-4 mb-4"> Portfolio 2026-2027 </h1>{" "}
         <hr className="t_border my-4 ml-0 text-left" />
